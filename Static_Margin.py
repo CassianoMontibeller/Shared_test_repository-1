@@ -1,14 +1,14 @@
 print('##### Calculador de Margem Estatica #####')
-c = 0.16        # corda media aerodinamica da asa
-xca = 0.040     # posição do centro aerodinamico
-n = 0.95        # eficiencia
-clasa = 0.060   # derivada da Cl x Alfa da asa
-arasa = 5.00    # ar da asa
-clpro = 0.040   # derivada da Cl x Alfa do profundor
-s = 0.4000      # area da asa
-sht = 0.1000    # area do profundor
-lht = 0.40      # distancia do CG ate o CA do profundor
-xcg = 0.07      # posição do CG
+c = 0.17        # corda media aerodinamica da asa
+xca = 0.050     # posição do centro aerodinamico
+n = 0.85        # eficiencia
+clasa = 0.050   # derivada da Cl x Alfa da asa
+arasa = 4.00    # ar da asa
+clpro = 0.050   # derivada da Cl x Alfa do profundor
+s = 0.3500      # area da asa
+sht = 0.1100    # area do profundor
+lht = 0.45      # distancia do CG ate o CA do profundor
+xcg = 0.06      # posição do CG
 
 clasa = clasa*(1/0.01745) 
 clpro = clpro*(1/0.01745)
