@@ -1,14 +1,14 @@
-print('##### Calculador de Margem Estatica #####')
-c = 0.17        # corda media aerodinamica da asa
-xca = 0.050     # posição do centro aerodinamico
-n = 0.85        # eficiencia
-clasa = 0.050   # derivada da Cl x Alfa da asa
-arasa = 4.00    # ar da asa
-clpro = 0.050   # derivada da Cl x Alfa do profundor
-s = 0.3500      # area da asa
-sht = 0.1100    # area do profundor
-lht = 0.45      # distancia do CG ate o CA do profundor
-xcg = 0.06      # posição do CG
+print('##### Static Margin Calculator #####')
+c = 0.17        # Aerodynamic medium wing rope
+xca = 0.050     # Aerodynamic center position
+n = 0.85        # Efficiency
+clasa = 0.050   # Derivative of Cl x Alfa of the wing 
+arasa = 4.00    # Ar of the wing
+clpro = 0.050   # Derivate of Cl x Alfa of the elevator
+s = 0.3500      # Wing area
+sht = 0.1100    # Elevator area
+lht = 0.45      # Distance from the CG to the CA of the elevator 
+xcg = 0.06      # CG position
 
 clasa = clasa*(1/0.01745) 
 clpro = clpro*(1/0.01745)
@@ -19,5 +19,5 @@ hpg = xcg/c
 
 me = hpn-hpg
 
-print('Valor da Margem Estatica %f' % me)
+print('Static Margin Value %f' % me)
 
